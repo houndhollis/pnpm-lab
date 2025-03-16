@@ -14,3 +14,13 @@
 ```sh
 pnpm install
 ```
+
+### 2.UI 패키지 빌드
+```sh
+pnpm --filter @myworkspace/ui buiid
+```
+
+### 3.서비스 실행
+```sh
+pnpm --filter service dev
+```
